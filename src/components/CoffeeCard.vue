@@ -39,6 +39,7 @@ const { coffee } = defineProps<{
 
 .img-container {
     position: relative;
+    margin: .5rem 0;
 }
 
 .popular {
@@ -63,6 +64,7 @@ const { coffee } = defineProps<{
 
 .img {
     border-radius: 10px;
+    width: 100%;
 }
 
 .rating {
@@ -72,6 +74,7 @@ const { coffee } = defineProps<{
 .ratingAndVote {
     display: flex;
     align-items: center;
+    margin: 5px 0;
 }
 
 .vote {

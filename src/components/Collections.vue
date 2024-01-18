@@ -35,12 +35,13 @@ const filteredCoffeeList = computed(() => activeIndex.value === 0 ? coffeeList :
     margin: 0 auto;
     text-align: center;
     background-color: #1B1D1F;
+    border-radius: 20px;
+    padding: 100px 80px;
 }
 
 .list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
@@ -50,7 +51,7 @@ const filteredCoffeeList = computed(() => activeIndex.value === 0 ? coffeeList :
 
 .content {
     color: #6F757C;
-    max-width: 30%;
+    max-width: 40%;
     margin: 20px auto;
 }
 </style>
